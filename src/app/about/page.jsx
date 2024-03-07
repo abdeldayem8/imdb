@@ -1,6 +1,5 @@
-import React from 'react'
 
-export default function page() {
+export default function About() {
   return (
     <div className='p-3 max-w-6xl mx-auto space-y-4'>
       <h1 className='text-2xl font-medium text-amber-600'>About</h1>
