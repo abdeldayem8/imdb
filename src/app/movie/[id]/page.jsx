@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default async function Moviepage({params}) {
     const movieid = params.id;
-    const res =await fetch(`https://api.themoviedb.org/3/movie/${movieid}?api_key=${process.env.API_KEY}&language=en-US&page=1`)
+    const res =await fetch(`https://api.themoviedb.org/3/movie/${movieid}?api_key=3d9045fd6c2bf3e0af3ebbedc3a99ec2&language=en-US&page=1`)
     const movie = await res.json();
     
   return <>
@@ -14,7 +14,6 @@ export default async function Moviepage({params}) {
     <p className="line-clamp-3 text-md my-3"><strong>Overview:</strong>{movie.overview}</p>
     <p className="my-3"><strong>Date Released:</strong>{movie.release_date || movie.first_air_date}</p>
     <p><strong>Rating:</strong>{movie.vote_count}</p>
-
     </div>
     </div>
    </div>
