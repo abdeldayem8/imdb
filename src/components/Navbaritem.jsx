@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation'
 import React from 'react'
 
 export default function Navbaritem({title,param}) {
-   const searchParams =  useSearchParams();
+   const searchParams=  useSearchParams();
    const genre = searchParams.get('genre');
   return <>
      <div>
