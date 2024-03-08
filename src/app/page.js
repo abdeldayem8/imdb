@@ -1,7 +1,7 @@
 import Results from "@/components/Results/results";
 
 
-const API_KEY = process.env.API_KEY;
+
 
 export default async function Home({searchParams}) {
 
