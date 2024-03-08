@@ -1,4 +1,4 @@
-import Card from '../Card/card'
+import Card from './Card'
 
 export default function Results({results}) {
   return <>

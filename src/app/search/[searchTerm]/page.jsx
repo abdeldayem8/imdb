@@ -1,4 +1,4 @@
-import Results from '@/components/Results/results';
+import Results from '@/components/Results';
 
 
 

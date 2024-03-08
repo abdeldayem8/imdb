@@ -1,9 +1,9 @@
 import React from 'react'
-import Menuitem from '../Menuitem/menuitem'
+import Menuitem from './Menuitem'
 import { MdHome } from "react-icons/md";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import Link from 'next/link';
-import Darkmode from '../Darkmode/darkmode';
+import Darkmode from './Darkmode';
 
 export default function Header() {
   return (

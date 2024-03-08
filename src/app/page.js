@@ -1,7 +1,4 @@
-import Results from "@/components/Results/results";
-
-
-
+import Results from "@/components/Results";
 
 export default async function Home({searchParams}) {
 
